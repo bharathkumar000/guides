@@ -1,6 +1,6 @@
 # 📚 The Ultimate Modern Developer Guide Hub
 
-Welcome to the **Developer & Robotics Team Resource Portal**! This is your one-stop-shop master directory for learning modern development technologies, building cloud-connected applications, deploying databases, running local AI models, and mastering collaborative Git workflows.
+Welcome to the **Developers ultimate gide hub**! This is your one-stop-shop master directory for learning modern development technologies, building cloud-connected applications, deploying databases, running local AI models, and mastering collaborative Git workflows.
 
 These guides are optimized for absolute beginners and built to work seamlessly with **Antigravity**, your agentic AI coding assistant.
 
