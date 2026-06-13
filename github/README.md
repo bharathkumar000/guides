@@ -1,6 +1,6 @@
 # 🎓 The Ultimate Git & GitHub Guide: From Novice to Collaborative Developer
 
-Welcome to the **Innovators & Visionaries Club (IVC)** GitHub Technical Workshop Reference Guide! This document is designed as a comprehensive, phase-by-step masterclass manual for beginners learning Git and GitHub. Whether you are building autonomous humanoid robots, programming microcontrollers, or developing complex software systems, version control is the foundation of modern engineering.
+Welcome to the **GitHub Technical Workshop Reference Guide**! This document is designed as a comprehensive, phase-by-step masterclass manual for beginners learning Git and GitHub. Whether you are building autonomous humanoid robots, programming microcontrollers, or developing complex software systems, version control is the foundation of modern engineering.
 
 This guide is optimized for use with **Antigravity**, your agentic AI coding assistant. Throughout this document, you will find instructions on how to use standard terminal commands as well as how to delegate these workflows to Antigravity inside its integrated Mac Zsh terminal environment.
 
@@ -132,9 +132,9 @@ flowchart TD
     Q3 -->|"Created / Cloned"| Remote["☁️ Remote Repository\nFully synced with GitHub cloud."]
     Q3 -->|"Forked from someone else"| Forked["🍴 Forked Repository\nYour personal cloud copy of\nsomeone else's project."]
 
-    Untracked --> Action1["Run: git init"]
+    Untracked --> Action1["Run terminal command:\ngit init"]
     Action1 --> Local
-    Local --> Action2["Run: git remote add origin URL"]
+    Local --> Action2["Run terminal command:\ngit remote add origin URL"]
     Action2 --> Remote
 
     style Untracked fill:#e17055,stroke:#d63031,color:#fff
@@ -214,18 +214,18 @@ flowchart TD
 
 #### Configure Global Identity
 ```bash
-git config --global user.name "Bharath Kumar A"
-git config --global user.email "bharath@example.com"
+git config --global user.name "<your github user name>" for example: Bharath Kumar A
+git config --global user.email "<your email linked to github>" for example: [EMAIL_ADDRESS]"
 ```
-* **What it does**: Binds the name "Bharath Kumar A" and the email "bharath@example.com" to every Git operation on your system.
+* **What it does**: Binds the name "Bharath Kumar A" and the email "[EMAIL_ADDRESS]" to every Git operation on your system.
 * **Why to use it**: Must be executed at least once on a new machine before you make your first commit, otherwise Git will raise a warning and attempt to guess your username.
 
 #### Configure Local Identity (Run inside a specific repo directory)
 ```bash
-git config --local user.name "Bharath IVC"
-git config --local user.email "ivc-robotics@vvce.ac.in"
+git config --local user.name "<your github user name>"
+git config --local user.email "<your email linked to github>"
 ```
-* **What it does**: Overrides global user details for the active repository, tagging commits from this repo with "Bharath IVC".
+* **What it does**: Overrides global user details for the active repository, tagging commits from this repo with "Bharath".
 
 #### Verify Configurations
 ```bash
@@ -521,7 +521,7 @@ Your teammates review your code, leaving line-by-line comments if changes are ne
 
 ## Phase 6.5: Real Workflow Example — Motor Control
 
-This section walks through a complete, real-world example of the Git workflow — exactly as it was demonstrated in the IVC workshop. The scenario: you are adding motor PWM control to your team's shared robot repository.
+This section walks through a complete, real-world example of the Git workflow — exactly as it was demonstrated in the workshop. The scenario: you are adding motor PWM control to your team's shared robot repository.
 
 ### 📊 Flowchart: The Complete Real Workflow
 ```mermaid
@@ -549,7 +549,7 @@ flowchart TD
 #### Step 1: Clone the Team Repository
 Your team lead has already created a repository on GitHub called `team-robot-project`. You need to download it to your local machine so you can start contributing.
 ```bash
-git clone https://github.com/ivc-robotics/team-robot-project.git
+git clone https://github.com/vvce-robotics/team-robot-project.git
 cd team-robot-project
 ```
 * **What it does**: Downloads the full repository — including all branches, commit history, and files — into a new folder called `team-robot-project` on your machine. The `cd` command then moves your terminal's working directory into that folder.
@@ -564,7 +564,7 @@ git checkout -b add-motor-control
 #### Step 3: Write Your Code
 Open your editor (VS Code, Antigravity, etc.) and create or edit the `motor.cpp` file. For example:
 ```cpp
-// motor.cpp — Basic PWM motor control for IVC robot
+// motor.cpp — Basic PWM motor control for the robot
 #include <Arduino.h>
 
 const int MOTOR_PIN = 9;
@@ -934,7 +934,7 @@ flowchart TD
 ```
 
 > [!TIP]
-> **Gitopia** — an interactive visual learning tool for Git — was demonstrated during the IVC workshop. You can explore it at **[gitopia.vercel.app](https://gitopia.vercel.app)** to practice branching, merging, and rebasing in a visual sandbox before running real commands.
+> **Gitopia** — an interactive visual learning tool for Git — was demonstrated during the workshop. You can explore it at **[gitopia.vercel.app](https://gitopia.vercel.app)** to practice branching, merging, and rebasing in a visual sandbox before running real commands.
 
 ---
 
@@ -981,7 +981,7 @@ A merge conflict occurs when two different branches modify the exact same line o
 ### 📊 Flowchart: Step-by-Step Merge Conflict Resolution
 ```mermaid
 flowchart TD
-    Start(["⚠️ CONFLICT during\ngit merge or git pull"]) --> Status["Run: git status\nIdentify conflicted files"]
+    Start(["⚠️ CONFLICT during\ngit merge or git pull"]) --> Status["Run terminal command:\ngit status\nIdentify conflicted files"]
     Status --> Open["Open each conflicted file\nin your editor"]
     Open --> Find["Find conflict markers:\n<<<<<<< HEAD\n=======\n>>>>>>> branch-name"]
     Find --> Decide{"Which code do you want?"}
@@ -1032,7 +1032,7 @@ pwm_frequency = 32000;
 
 ## Phase 8.5: Hands-On Activity — Build Your First Repository
 
-This guided activity was part of the IVC GitHub Fundamentals Workshop. Complete these 5 tasks to build a real team robot repository from scratch. Each task builds on the previous one.
+This guided activity was part of the GitHub Fundamentals Workshop. Complete these 5 tasks to build a real team robot repository from scratch. Each task builds on the previous one.
 
 ### 📊 Flowchart: The 5-Task Activity Path
 ```mermaid
@@ -1073,8 +1073,8 @@ Open the `README.md` file and replace its contents with a proper project descrip
 # 🤖 Team Robot Project
 
 ## About
-This repository contains the control software for IVC's humanoid robot.
-Built by the Innovators & Visionaries Club at VVCE.
+This repository contains the control software for the humanoid robot.
+Built by the robotics team at VVCE.
 
 ## Team Members
 - Bharath Kumar A — Motor Control & PWM
@@ -1122,7 +1122,7 @@ git branch
 ### ✅ Task 4: Commit a Simple `motor.cpp` File
 Create a new file called `motor.cpp`:
 ```cpp
-// motor.cpp — Basic motor control for IVC robot
+// motor.cpp — Basic motor control for the robot
 #include <Arduino.h>
 
 const int MOTOR_PIN = 9;
@@ -1245,7 +1245,7 @@ As you collaborate using the chat UI, you can use these shortcuts:
 ## Phase 10: Learning Outcomes, Tools Used & Next Steps
 
 ### ✅ Learning Outcomes
-After completing this guide and the IVC workshop, you should be confident in the following:
+After completing this guide and the workshop, you should be confident in the following:
 
 | # | Outcome | Status |
 |:--|:--------|:------:|
@@ -1289,7 +1289,7 @@ Your journey with Git doesn't end here. These are the best resources for continu
 |:---------|:------------|:-----|
 | **Learn Git Branching** | The #1 interactive visual tutorial. Practice branching, merging, rebasing, and cherry-picking in a sandbox. Highly recommended as your immediate next step. | [learngitbranching.js.org](https://learngitbranching.js.org) |
 | **GitHub Skills** | Official GitHub-guided courses. Complete hands-on exercises directly inside real repositories on GitHub. | [skills.github.com](https://skills.github.com) |
-| **Gitopia** | Visual Git sandbox used during the IVC workshop. Great for experimenting with branches and merges visually. | [gitopia.vercel.app](https://gitopia.vercel.app) |
+| **Gitopia** | Visual Git sandbox used during the workshop. Great for experimenting with branches and merges visually. | [gitopia.vercel.app](https://gitopia.vercel.app) |
 
 #### 📚 Reference & Deep Learning
 | Resource | Description | Link |
@@ -1365,6 +1365,6 @@ flowchart LR
 
 ---
 
-*This guide was created for the **Innovators & Visionaries Club (IVC)** GitHub Fundamentals Workshop, powered by **Antigravity** — your agentic AI coding assistant by Google DeepMind.*
+*This guide was created for the **GitHub Fundamentals Workshop**, powered by **Antigravity** — your agentic AI coding assistant by Google DeepMind.*
 
 *You can now collaborate with confidence.* 🚀
