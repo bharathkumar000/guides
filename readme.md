@@ -6,33 +6,6 @@ These guides are optimized for absolute beginners and built to work seamlessly w
 
 ---
 
-## 🗺️ Recommended Learning Paths
-
-Which adventure are you embarking on today? Follow the roadmap to choose the right guides for your journey:
-
-```mermaid
-flowchart TD
-    Start(["🚀 Choose Your Path"]) --> Path1["🌐 Web App Track\n(Build modern cloud apps)"]
-    Start --> Path2["🦾 Hardware & AI Track\n(Build smart hardware/systems)"]
-
-    Path1 --> Guide_DB["1. Supabase Cloud Database\n(supabase.md)"]
-    Guide_DB --> Guide_Deploy["2. Vercel Hosting\n(vercel.md)"]
-
-    Path2 --> Guide_Git["1. Git & Collaboration\n(github.md)"]
-    Guide_Git --> Guide_Ollama["2. Local AI with Ollama\n(ollama.md)"]
-    Guide_Ollama --> Guide_Keys["3. API Security\n(api keys.md)"]
-
-    Guide_Deploy --> Final["🧘‍♂️ Zen Mode: Vibe Coding\n(vibecoding.md)"]
-    Guide_Keys --> Final
-
-    style Start fill:#fdcb6e,stroke:#f39c12,color:#333
-    style Path1 fill:#74b9ff,stroke:#0984e3,color:#fff
-    style Path2 fill:#a29bfe,stroke:#6c5ce7,color:#fff
-    style Final fill:#00b894,stroke:#00a884,color:#fff
-```
-
----
-
 ## 📁 Library Directory
 
 Select a guide below to jump straight in:
