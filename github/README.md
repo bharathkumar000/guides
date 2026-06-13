@@ -215,9 +215,9 @@ flowchart TD
 #### Configure Global Identity
 ```bash
 git config --global user.name "<your github user name>" for example: Bharath Kumar A
-git config --global user.email "<your email linked to github>" for example: [EMAIL_ADDRESS]"
+git config --global user.email "<your email linked to github>" for example: "bharath@gmail.com"
 ```
-* **What it does**: Binds the name "Bharath Kumar A" and the email "[EMAIL_ADDRESS]" to every Git operation on your system.
+* **What it does**: Binds the name "Bharath Kumar A" and the email "bharath@gmail.com" to every Git operation on your system.
 * **Why to use it**: Must be executed at least once on a new machine before you make your first commit, otherwise Git will raise a warning and attempt to guess your username.
 
 #### Configure Local Identity (Run inside a specific repo directory)
