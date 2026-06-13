@@ -10,44 +10,31 @@ These guides are optimized for absolute beginners and built to work seamlessly w
 
 Select a guide below to jump straight in:
 
-| Guide Name | Status | Difficulty | Key Topics Covered |
-| :--- | :---: | :---: | :--- |
-| [🧘‍♂️ Vibe Coding](file:///Users/bharathkumara/Desktop/guides/vibecoding.md) | Ready | 🌟 Easy | How to let AI do the work while you enjoy coffee. |
-| [🎓 Git & GitHub](file:///Users/bharathkumara/Desktop/guides/github.md) | Ready | 🌟🌟 Medium | Repositories, branches, PR reviews, merge conflicts. |
-| [👾 Antigravity](file:///Users/bharathkumara/Desktop/guides/antigravity.md) | Ready | 🌟 Easy | Prompt engineering, delegating terminal tasks, and AI loops. |
-| [⚡ Supabase](file:///Users/bharathkumara/Desktop/guides/supabase.md) | Ready | 🌟🌟 Medium | SQL tables, Authentication, Row-Level Security (RLS). |
-| [☁️ Vercel Deployment](file:///Users/bharathkumara/Desktop/guides/vercel.md) | Ready | 🌟 Easy | Auto-deploys, custom domains, environment configurations. |
-| [🦙 Ollama Local LLMs](file:///Users/bharathkumara/Desktop/guides/ollama.md) | Ready | 🌟🌟 Medium | Running models offline (Llama 3, Phi 3), local coding. |
-| [🔑 API Keys Security](file:///Users/bharathkumara/Desktop/guides/api keys.md) | Ready | 🌟🌟 Medium | Secret management, `.env` setup, security audits. |
+| Guide Name | Difficulty | Key Topics Covered |
+| :--- | :---: | :--- |
+| [🧘‍♂️ Vibe Coding](vibecoding.md) | 🌟 Easy | How to let AI do the work while you enjoy coffee. |
+| [🎓 Git & GitHub](github.md) | 🌟🌟 Medium | Repositories, branches, PR reviews, merge conflicts. |
+| [👾 Antigravity](antigravity.md) | 🌟 Easy | Prompt engineering, delegating terminal tasks, and AI loops. |
+| [⚡ Supabase](supabase.md) | 🌟🌟 Medium | SQL tables, Authentication, Row-Level Security (RLS). |
+| [☁️ Vercel Deployment](vercel.md) | 🌟 Easy | Auto-deploys, custom domains, environment configurations. |
+| [🦙 Ollama Local LLMs](ollama.md) | 🌟🌟 Medium | Running models offline (Llama 3, Phi 3), local coding. |
+| [🔑 API Keys Security](api-keys.md) | 🌟🌟 Medium | Secret management, `.env` setup, security audits. |
 
 ---
 
 ## 🕹️ Quick Access Dashboard
 
-Click one of the buttons below to open a guide immediately inside your editor:
+Click one of the links below to open a guide immediately:
 
-<div align="center" style="margin: 20px 0;">
-  <a href="file:///Users/bharathkumara/Desktop/guides/vibecoding.md" style="text-decoration:none;">
-    <button style="background-color:#6c5ce7; color:white; border:none; padding:10px 18px; font-size:14px; border-radius:6px; cursor:pointer; font-weight:bold; margin:5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      🧘‍♂️ Vibe Coding
-    </button>
-  </a>
-  <a href="file:///Users/bharathkumara/Desktop/guides/github.md" style="text-decoration:none;">
-    <button style="background-color:#0984e3; color:white; border:none; padding:10px 18px; font-size:14px; border-radius:6px; cursor:pointer; font-weight:bold; margin:5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      🎓 Git & GitHub
-    </button>
-  </a>
-  <a href="file:///Users/bharathkumara/Desktop/guides/vercel.md" style="text-decoration:none;">
-    <button style="background-color:#00cec9; color:white; border:none; padding:10px 18px; font-size:14px; border-radius:6px; cursor:pointer; font-weight:bold; margin:5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      ☁️ Vercel
-    </button>
-  </a>
-  <a href="file:///Users/bharathkumara/Desktop/guides/supabase.md" style="text-decoration:none;">
-    <button style="background-color:#e17055; color:white; border:none; padding:10px 18px; font-size:14px; border-radius:6px; cursor:pointer; font-weight:bold; margin:5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      ⚡ Supabase
-    </button>
-  </a>
-</div>
+<p align="center">
+  <a href="vibecoding.md"><img src="https://img.shields.io/badge/🧘‍♂️_Vibe_Coding-6c5ce7?style=for-the-badge&logoColor=white" alt="Vibe Coding"></a>
+  <a href="github.md"><img src="https://img.shields.io/badge/🎓_Git_&_GitHub-0984e3?style=for-the-badge&logoColor=white" alt="Git & GitHub"></a>
+  <a href="antigravity.md"><img src="https://img.shields.io/badge/👾_Antigravity-fd79a8?style=for-the-badge&logoColor=white" alt="Antigravity"></a>
+  <a href="vercel.md"><img src="https://img.shields.io/badge/☁️_Vercel-00cec9?style=for-the-badge&logoColor=white" alt="Vercel"></a>
+  <a href="supabase.md"><img src="https://img.shields.io/badge/⚡_Supabase-e17055?style=for-the-badge&logoColor=white" alt="Supabase"></a>
+  <a href="ollama.md"><img src="https://img.shields.io/badge/🦙_Ollama-00b894?style=for-the-badge&logoColor=white" alt="Ollama"></a>
+  <a href="api-keys.md"><img src="https://img.shields.io/badge/🔑_API_Keys-fdcb6e?style=for-the-badge&logoColor=333" alt="API Keys"></a>
+</p>
 
 ---
 
