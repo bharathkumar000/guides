@@ -15,9 +15,8 @@ flowchart TD
     Start(["🚀 Choose Your Path"]) --> Path1["🌐 Web App Track\n(Build modern cloud apps)"]
     Start --> Path2["🦾 Hardware & AI Track\n(Build smart hardware/systems)"]
 
-    Path1 --> Guide_Web["1. Web Dev Core\n(webdev.md)"]
-    Guide_Web --> Guide_DB["2. Supabase Cloud Database\n(supabase.md)"]
-    Guide_DB --> Guide_Deploy["3. Vercel Hosting\n(vercel.md)"]
+    Path1 --> Guide_DB["1. Supabase Cloud Database\n(supabase.md)"]
+    Guide_DB --> Guide_Deploy["2. Vercel Hosting\n(vercel.md)"]
 
     Path2 --> Guide_Git["1. Git & Collaboration\n(github.md)"]
     Guide_Git --> Guide_Ollama["2. Local AI with Ollama\n(ollama.md)"]
@@ -43,7 +42,6 @@ Select a guide below to jump straight in:
 | [🧘‍♂️ Vibe Coding](file:///Users/bharathkumara/Desktop/guides/vibecoding.md) | Ready | 🌟 Easy | How to let AI do the work while you enjoy coffee. |
 | [🎓 Git & GitHub](file:///Users/bharathkumara/Desktop/guides/github.md) | Ready | 🌟🌟 Medium | Repositories, branches, PR reviews, merge conflicts. |
 | [👾 Antigravity](file:///Users/bharathkumara/Desktop/guides/antigravity.md) | Ready | 🌟 Easy | Prompt engineering, delegating terminal tasks, and AI loops. |
-| [🌐 Web Development](file:///Users/bharathkumara/Desktop/guides/webdev.md) | Ready | 🌟 Easy | Core HTML, CSS, JavaScript, and dynamic frontends. |
 | [⚡ Supabase](file:///Users/bharathkumara/Desktop/guides/supabase.md) | Ready | 🌟🌟 Medium | SQL tables, Authentication, Row-Level Security (RLS). |
 | [☁️ Vercel Deployment](file:///Users/bharathkumara/Desktop/guides/vercel.md) | Ready | 🌟 Easy | Auto-deploys, custom domains, environment configurations. |
 | [🦙 Ollama Local LLMs](file:///Users/bharathkumara/Desktop/guides/ollama.md) | Ready | 🌟🌟 Medium | Running models offline (Llama 3, Phi 3), local coding. |
@@ -66,9 +64,9 @@ Click one of the buttons below to open a guide immediately inside your editor:
       🎓 Git & GitHub
     </button>
   </a>
-  <a href="file:///Users/bharathkumara/Desktop/guides/webdev.md" style="text-decoration:none;">
-    <button style="background-color:#00b894; color:white; border:none; padding:10px 18px; font-size:14px; border-radius:6px; cursor:pointer; font-weight:bold; margin:5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-      🌐 Web Dev
+  <a href="file:///Users/bharathkumara/Desktop/guides/vercel.md" style="text-decoration:none;">
+    <button style="background-color:#00cec9; color:white; border:none; padding:10px 18px; font-size:14px; border-radius:6px; cursor:pointer; font-weight:bold; margin:5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      ☁️ Vercel
     </button>
   </a>
   <a href="file:///Users/bharathkumara/Desktop/guides/supabase.md" style="text-decoration:none;">

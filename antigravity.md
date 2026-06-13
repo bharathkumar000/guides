@@ -2,7 +2,20 @@
 
 Welcome to **Antigravity**, your autonomous AI development assistant! Unlike simple chatbots that only spit out code snippets for you to copy and paste, Antigravity is **agentic**. This means it can read your project structure, edit files directly, run terminal commands, debug compiler errors, and orchestrate complex setups — all with your authorization.
 
-Think of Antigravity as an eager, hyper-competent co-pilot who writes the code, handles configurations, and manages terminal execution while you steering the architecture.
+Think of Antigravity as an eager, hyper-competent co-pilot who writes the code, handles configurations, and manages terminal execution while you steer the architecture.
+
+### 🚀 Antigravity IDE vs. Antigravity 2.0 (Agentic Evolution)
+
+Here is a comparison of how the development experience has evolved:
+
+| Feature / Capability | Antigravity IDE (v1.0) | Antigravity 2.0 (Current) |
+| :--- | :--- | :--- |
+| **Execution Paradigm** | Chat-based suggestions | Agentic autonomous operations |
+| **Code Implementation** | Copy and paste manually | Direct file editing and creations |
+| **Terminal Integration** | Run commands yourself | Runs terminal commands securely on your behalf |
+| **Debugging Loop** | You copy error logs back and forth | Automatically intercepts and resolves compiler/linter errors |
+| **State Monitoring** | Blind to workspace context | Monitors open files, cursors, and active terminals in real time |
+| **Advanced Tools** | Static text outputs | Multi-agent support, slash command triggers, and scheduled loops |
 
 ---
 
