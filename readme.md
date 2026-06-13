@@ -82,3 +82,10 @@ Click one of the buttons below to open a guide immediately inside your editor:
 
 > [!TIP]
 > **Pro-Tip**: When reading these guides, keep **Antigravity** open! If there is a code block or command you want to test, simply highlight it and ask Antigravity: *"Create a file with this code and run it in my terminal."*
+
+---
+
+### 👤 Author Details
+* **Name**: Bharath Kumar A
+* **GitHub**: [@bharathkumar000](https://github.com/bharathkumar000)
+* **Email**: bharathece2006@gmail.com

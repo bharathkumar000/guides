@@ -1368,3 +1368,10 @@ flowchart LR
 *This guide was created as part of the **GitHub Fundamentals Guide Series**, powered by **Antigravity** — your agentic AI coding assistant by Google DeepMind.*
 
 *You can now collaborate with confidence.* 🚀
+
+---
+
+### 👤 Author Details
+* **Name**: Bharath Kumar A
+* **GitHub**: [@bharathkumar000](https://github.com/bharathkumar000)
+* **Email**: bharathece2006@gmail.com

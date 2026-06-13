@@ -119,3 +119,10 @@ Ready to launch this to the cloud or save state? Click below to navigate:
     </button>
   </a>
 </div>
+
+---
+
+### 👤 Author Details
+* **Name**: Bharath Kumar A
+* **GitHub**: [@bharathkumar000](https://github.com/bharathkumar000)
+* **Email**: bharathece2006@gmail.com

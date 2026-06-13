@@ -72,3 +72,10 @@ Click below to navigate directly to your tools and start vibe coding:
 ---
 
 *This guide is part of the **Modern Developer Guide Series**. Let the vibes guide your code!* 🚀
+
+---
+
+### 👤 Author Details
+* **Name**: Bharath Kumar A
+* **GitHub**: [@bharathkumar000](https://github.com/bharathkumar000)
+* **Email**: bharathece2006@gmail.com

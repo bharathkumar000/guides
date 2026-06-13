@@ -94,3 +94,10 @@ Ready to configure your project parameters? Click the dashboard buttons to proce
     </button>
   </a>
 </div>
+
+---
+
+### 👤 Author Details
+* **Name**: Bharath Kumar A
+* **GitHub**: [@bharathkumar000](https://github.com/bharathkumar000)
+* **Email**: bharathece2006@gmail.com

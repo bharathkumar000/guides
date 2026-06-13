@@ -75,3 +75,10 @@ Where to proceed from here? Click the buttons to configure other modules:
     </button>
   </a>
 </div>
+
+---
+
+### 👤 Author Details
+* **Name**: Bharath Kumar A
+* **GitHub**: [@bharathkumar000](https://github.com/bharathkumar000)
+* **Email**: bharathece2006@gmail.com
