@@ -45,10 +45,15 @@ flowchart TD
     style Run fill:#00b894,stroke:#00a884,color:#fff
 ```
 
-### 💡 Visual Walkthrough: Granting Permissions
-When Antigravity proposes a set of actions (such as writing code or running shell scripts), it will present an execution plan in the Chat UI. You must review the plan and click the green **"Approve & Run"** button shown below to authorize the agent:
+### 💡 Visual Walkthrough: The Antigravity Workspace Interface
 
-![Antigravity Approval Interface Screenshot](antigravity_approve_button.png)
+To collaborate effectively with Antigravity, familiarize yourself with the layout of your agentic workspace:
+*   **Code Editor Workspace**: The central workspace where your project source files are written, edited, and displayed.
+*   **Antigravity AI Chat Box**: The chat pane on the right side where you communicate with the agent, issue prompts, and review proposed action plans.
+*   **Terminal Permission Button**: The green **"Approve & Run"** button inside the AI chat plan. Clicking this authorizes the agent to write files and run shell commands in the background.
+*   **Git Branch & Terminal Status**: The status bar at the bottom left showing your current active Git branch and the status of background terminal scripts.
+
+![Antigravity Labeled Workspace Diagram](antigravity_labeled_workspace.png)
 
 ---
 
