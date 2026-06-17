@@ -1,8 +1,14 @@
 # 👾 Unleashing Antigravity: Your Agentic AI Coding Partner
 
-Welcome to **Antigravity**, your autonomous AI development assistant! Unlike simple chatbots that only spit out code snippets for you to copy and paste, Antigravity is **agentic**. This means it can read your project structure, edit files directly, run terminal commands, debug compiler errors, and orchestrate complex setups — all with your authorization.
+Imagine hiring an intern who has memorized every coding book, documentation site, and StackOverflow post ever written. They write code at light speed, configure databases flawlessly, and don't steal your snacks from the breakroom. The only catch? They are so polite that they refuse to touch your keyboard or run a command unless you give them an explicit thumbs-up first. That is Antigravity: an agentic co-pilot that actually does the work while you play the role of the benevolent director.
 
-Think of Antigravity as an eager, hyper-competent co-pilot who writes the code, handles configurations, and manages terminal execution while you steer the architecture.
+### 🧭 The 5W 1H of Antigravity
+*   **Who is this for?** Developers of all skill levels who want an active coding collaborator rather than a passive, copy-paste chatbot.
+*   **What is it?** An agentic development assistant capable of reading workspace files, editing code directly, executing terminal commands, and fixing its own build bugs.
+*   **Where does it operate?** Integrated directly inside your development workspace and local shell environment.
+*   **When should you use it?** Throughout your entire development cycle—from planning architecture and setting up boilerplates to debugging and final tests.
+*   **Why use it?** Because copying code blocks, writing terminal boilerplate, and fixing minor linter errors manually is a waste of your valuable coffee time.
+*   **How does it work?** You explain what you want in natural language, review the proposed file changes and shell commands, approve them, and verify the results.
 
 ### 🚀 Antigravity IDE vs. Antigravity 2.0 (Agentic Evolution)
 

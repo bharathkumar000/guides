@@ -1,8 +1,14 @@
 # 🧘‍♂️ The Zen of Vibe Coding: Let the AI Do the Heavy Lifting
 
-Welcome to the future of software engineering, where typing actual syntax is *so* last year. **Vibe Coding** is the art of programming at the speed of thought. Instead of wrestling with syntax errors, brace alignment, or package managers, you provide the "vibe" (your intent, requirements, and design ideas), and your AI agent (like Antigravity) does the actual coding.
+Remember that time you tried to write a simple website, but ended up rocking back and forth in the corner of your room because a single missing semicolon broke the entire layout? Vibe Coding is your ultimate escape. Instead of wrestling with syntax errors, package managers, and compiler complaints, you sit back in your comfy chair, sip a hot beverage, and dictate your high-level desires to an AI assistant that handles all the sweating for you.
 
-This guide will show you how to transition from a manual, stress-ridden coder to a relaxed, high-productivity **Vibe Engineer**.
+### 🧭 The 5W 1H of Vibe Coding
+*   **Who is this for?** Stressed-out developers who want to transition from code-monkeys to high-level directors of technology.
+*   **What is it?** Programming at the speed of thought by communicating your design and architectural intent rather than typing boilerplate syntax.
+*   **Where does it happen?** Right within your Antigravity workspace, where natural language meets automated execution.
+*   **When should you use it?** Whenever you want to prototype ideas quickly, explore design options, or avoid standard developer fatigue.
+*   **Why does it matter?** Because your brain was built for creative problem-solving and logic architecture, not for hunting down missing curly braces in the dark.
+*   **How do you do it?** Describe your end goal in plain English, let the AI generate/test the files, perform rapid "Vibe Checks", and guide the design iteratively.
 
 ---
 
