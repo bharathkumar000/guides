@@ -12,22 +12,34 @@ Remember that time you tried to write a simple website, but ended up rocking bac
 
 ---
 
-## 🗺️ The Vibe Coding Lifecycle
+## 🗺️ The Vibe Coding Lifecycle: From Mind to Code
 
-Below is the standard workflow of a successful vibe coding session. Notice that you spend most of your time sipping coffee and reviewing clean diffs:
+Here is the exact practical pipeline of how you take a raw lightbulb idea from your mind and turn it into a working application:
+
+1. **Initiate the Idea**: You get a flash of inspiration for a new project in your mind.
+2. **Draft the Specs with Claude**: Instead of trying to write code immediately, you go to Claude (or another chat-based LLM), explain your raw ideas in natural language, and ask it to generate a comprehensive **Project Requirements Document (PRD)**. This PRD should contain everything: the technology stack, user flows, interface designs, content structure, system architecture charts, and a detailed step-by-step flow of work.
+3. **Get the Prompt Payload**: Claude processes your thoughts and generates a highly detailed text specification or a copy-paste prompt payload.
+4. **Feed it to Antigravity**: You pass this generated specification/prompt directly into **Antigravity**. (Make sure to read the [Antigravity Guide](antigravity.md) to understand how to delegate tasks and collaborate with your agentic helper).
+5. **Agent Execution**: Antigravity acts on the requirements document—generating files, setting up configurations, running compiler/linter tools, and launching the local server.
+6. **Vibe Check & Iterate**: Run a local vibe check on the preview build, refine the design or prompt requirements, and let Antigravity tweak the layouts.
 
 ```mermaid
 flowchart TD
-    Idea(["💡 Lightbulb Idea\n'I want a Cat Translator App'"]) --> Prompt["💬 Express the Vibe\nDescribe features in plain English"]
-    Prompt --> Antigravity["👾 Agent Magic\nAntigravity builds & debugs"]
-    Antigravity --> Check{"🔍 The Vibe Check\nDoes it look/work great?"}
-    Check -->|No| Feedback["🗣️ Adjust the Vibe\n'Make it more purple and add cat memes'"]
-    Feedback --> Antigravity
-    Check -->|Yes| Ship["🚀 Deploy with Vercel\nOne click, live to the world"]
+    Idea(["💡 1. Raw Idea in Mind\n'I want to build X'"]) --> Claude["🤖 2. Explain to Claude\nDetail features & concepts in chat"]
+    Claude --> PRD["📝 3. Generate PRD Specs\nClaude outputs Tech Stack, Design, Flows & Architecture"]
+    PRD --> AGY["👾 4. Feed to Antigravity\nGive the PRD prompt to your agent"]
+    AGY --> Build["⚙️ 5. Automated Build & Test\nAgent writes code, runs terminal & debugs"]
+    Build --> Check{"🔍 6. Vibe Check\nDoes it look and work great?"}
+    Check -->|No| Adjust["🗣️ Adjust Prompt\nIterate on features or styling"]
+    Adjust --> AGY
+    Check -->|Yes| Launch["🚀 7. Live Launch\nReady for deployment!"]
 
     style Idea fill:#a29bfe,stroke:#6c5ce7,color:#fff
-    style Check fill:#fdcb6e,stroke:#f39c12,color:#333
-    style Ship fill:#00b894,stroke:#00a884,color:#fff
+    style Claude fill:#74b9ff,stroke:#0984e3,color:#fff
+    style PRD fill:#fd79a8,stroke:#e84393,color:#fff
+    style AGY fill:#fdcb6e,stroke:#f39c12,color:#333
+    style Build fill:#00b894,stroke:#00a884,color:#fff
+    style Check fill:#00cec9,stroke:#00b894,color:#fff
 ```
 
 ---
@@ -78,6 +90,17 @@ Click below to navigate directly to your tools and start vibe coding:
 ---
 
 *This guide is part of the **Modern Developer Guide Series**. Let the vibes guide your code!* 🚀
+
+## 🛠️ Interactive Hands-on Challenge: Build Your First Vibe App
+
+Let's test the vibe lifecycle together:
+1. Open **Antigravity Chat**.
+2. Copy and send this prompt:
+   > *"Antigravity, write a simple Python script in `scratch/joke_generator.py` that contains a list of 5 funny programming jokes and prints one at random. Run the script in the terminal so I can see the joke."*
+3. **Verify**: Check that Antigravity writes the file and runs it to output a joke.
+4. **Modify the Vibe**: Send a follow-up request:
+   > *"Now change the jokes to be specifically about Git merge conflicts and run it again."*
+5. **Verify**: Check the new terminal output to confirm the jokes updated!
 
 ---
 

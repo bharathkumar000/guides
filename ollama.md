@@ -105,6 +105,22 @@ Explore related tools to connect your local models:
   </a>
 </div>
 
+## 🛠️ Interactive Hands-on Challenge: Chat with a Local Model
+
+Let's check if you can communicate with a local LLM:
+1. Open your computer terminal. Run this diagnostics command to see if Ollama is running:
+   ```bash
+   curl http://localhost:11434
+   ```
+   *(It should output `"Ollama is running"`)*.
+2. If it's running, run a lightweight model in the background:
+   ```bash
+   ollama run phi3
+   ```
+3. Open **Antigravity Chat** and prompt the assistant:
+   > *"Antigravity, write a Node.js script in `scratch/test_ollama.js` that makes a POST request to my local Ollama server endpoint at http://localhost:11434/api/generate requesting the 'phi3' model to answer: 'Why do programmers wear glasses?' with stream set to false. Run the script and show me the response."*
+4. **Verify**: Ensure the script runs successfully and you see the joke output printed locally!
+
 ---
 
 ### 👤 Author Details

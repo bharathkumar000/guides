@@ -51,6 +51,14 @@ Click one of the links below to open a guide immediately:
 > [!TIP]
 > **Pro-Tip**: When reading these guides, keep **Antigravity** open! If there is a code block or command you want to test, simply highlight it and ask Antigravity: *"Create a file with this code and run it in my terminal."*
 
+## 🛠️ Interactive Hands-on Challenge: Meet Your Co-Pilot
+
+Let's do a quick practical test to verify everything works:
+1. Open your **Antigravity Chat** on the side panel.
+2. Type the following message and hit send:
+   > *"Hello! Inspect my guides directory and print a list of all `.md` files you find, along with their file sizes."*
+3. **Verify**: Check if Antigravity correctly lists all 9 guide documents and prints their sizes. If it asks for terminal permission, approve it to watch it run!
+
 ---
 
 ### 👤 Author Details

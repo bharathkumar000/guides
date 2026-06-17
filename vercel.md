@@ -78,6 +78,17 @@ Where to proceed from here? Click the buttons to configure other modules:
   </a>
 </div>
 
+## 🛠️ Interactive Hands-on Challenge: Deploy Your Dashboard
+
+Let's publish a web application live to the internet:
+1. Open your web browser and go to [vercel.com](https://vercel.com).
+2. Log in using your **GitHub account** credentials.
+3. Click the **"Add New..."** button and choose **"Project"**.
+4. Import your personal repository hub.
+5. In the configuration settings, if your app requires mock environment keys, add a temporary key:
+   - **Key**: `APP_STAGE` | **Value**: `production`
+6. Click **Deploy**. Wait 60 seconds, watch the confetti animation, and click your new `vercel.app` preview link!
+
 ---
 
 ### 👤 Author Details

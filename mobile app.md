@@ -216,6 +216,17 @@ Ready to jump into other project folders or manage credentials? Use the navigati
   </a>
 </div>
 
+## 🛠️ Interactive Hands-on Challenge: Diagnostics Audit
+
+Let's verify your local development environment:
+1. Open **Antigravity Chat**.
+2. Run this prompt to audit your mobile configuration:
+   > *"Antigravity, run `flutter doctor` in the terminal and tell me if there are any missing components or license errors in my setup."*
+3. **Verify**: Inspect the diagnostic checklist generated.
+4. Unlock Developer Options on your physical phone (tapping build number 7 times on Android, or toggling iOS Privacy settings), plug it into your USB port, and ask:
+   > *"Antigravity, run `flutter devices` and verify if my phone's identifier is recognized."*
+5. **Verify**: Ensure your model shows up correctly in the active devices log!
+
 ---
 
 ### 👤 Author Details

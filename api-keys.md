@@ -99,6 +99,17 @@ Ready to configure your project parameters? Click the dashboard buttons to proce
   </a>
 </div>
 
+## 🛠️ Interactive Hands-on Challenge: Protect a Secret
+
+Let's practice securing credentials in a local workspace:
+1. Open **Antigravity Chat**.
+2. Run this prompt to create a dummy secret file:
+   > *"Antigravity, write a dummy credentials file in the scratch folder named `scratch/mock_api.env` containing: `MOCK_API_KEY=\"fake-keys-12345\"`"*
+3. **Verify**: Ensure the file is successfully created.
+4. **Git Check**: Now, let's make sure Git ignores it. Ask Antigravity:
+   > *"Add `scratch/mock_api.env` to the project's `.gitignore` file, then run git status to make sure the secret file is ignored and doesn't get tracked."*
+5. **Verify**: Check the command output to verify `mock_api.env` is hidden from Git tracking!
+
 ---
 
 ### 👤 Author Details

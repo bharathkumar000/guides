@@ -107,6 +107,15 @@ Ready to wire your database to other parts of your workspace? Click these naviga
   </a>
 </div>
 
+## 🛠️ Interactive Hands-on Challenge: Write an RLS Policy SQL Schema
+
+Let's practice designing a secure database table layout before executing it in Supabase:
+1. Open **Antigravity Chat**.
+2. Run this prompt to generate a secure database layout file:
+   > *"Antigravity, write a SQL schema file in `scratch/comments.sql` that creates a table named `comments` with an autoincrementing ID, user_id (uuid reference), message (text), and created_at. The script should enable Row-Level Security (RLS) and write a SELECT policy where anyone can read comments, but only logged-in users can INSERT comments."*
+3. **Verify**: Open the generated `scratch/comments.sql` to inspect the clean PostgreSQL syntax.
+4. **Deploy Step**: Go to your Supabase project dashboard, open the **SQL Editor**, paste the code, and click **Run**!
+
 ---
 
 ### 👤 Author Details

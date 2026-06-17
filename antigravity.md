@@ -95,6 +95,16 @@ Where would you like to go next? Click the buttons to load other guides:
   </a>
 </div>
 
+## 🛠️ Interactive Hands-on Challenge: Test Slash Commands
+
+Let's try using Antigravity's advanced capabilities:
+1. In the chat interface, type `/grill-me` and press Enter.
+2. **Interact**: Respond to the automated interactive questions to plan out a simple app design of your choice.
+3. Once you're done or want to stop, tell it: *"Let's cancel the interview."*
+4. **Run a Task**: Ask Antigravity to run a quick local script check:
+   > *"Antigravity, write a script in `scratch/check_time.py` that outputs the current local timestamp, and run it in the terminal."*
+5. **Verify**: Approve the file edit and command execution to see the output printed.
+
 ---
 
 ### 👤 Author Details
