@@ -45,6 +45,11 @@ flowchart TD
     style Run fill:#00b894,stroke:#00a884,color:#fff
 ```
 
+### 💡 Visual Walkthrough: Granting Permissions
+When Antigravity proposes a set of actions (such as writing code or running shell scripts), it will present an execution plan in the Chat UI. You must review the plan and click the green **"Approve & Run"** button shown below to authorize the agent:
+
+![Antigravity Approval Interface Screenshot](antigravity_approve_button.png)
+
 ---
 
 ## 💡 Humorous Prompts: How to Communicate with Antigravity
