@@ -93,6 +93,9 @@ To test your Flutter app on an Android phone, you need to turn the phone from a 
 7. Select **Developer Options** and toggle the switch to **ON**.
 8. Scroll down and enable **USB Debugging** (accept the warning popup).
 
+![Android Developer Mode unlocking Build Number](android_developer_mode.png)
+
+
 ### Part B: Computer Configuration & Execution
 
 ```mermaid

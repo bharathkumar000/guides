@@ -61,6 +61,8 @@ Make sure your `.gitignore` file contains the line `.env` so Git ignores it:
 .env.development.local
 ```
 
+![gitignore shield securely blocking .env upload to GitHub](gitignore_shield.png)
+
 ---
 
 ## 🎭 The "Oh No, I Leaked It!" Emergency Guide

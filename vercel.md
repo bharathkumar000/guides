@@ -59,6 +59,8 @@ Before clicking deploy, toggle the **"Environment Variables"** dropdown and add 
 ### Step 4: Click Deploy!
 Click **"Deploy"**. Vercel will start building your code. Once complete, you will see a confetti animation and your live website link!
 
+![Vercel Deployment Success](vercel_success.png)
+
 ---
 
 ## 🕹️ Operations Dashboard

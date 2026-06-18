@@ -68,6 +68,8 @@ create policy "Users can only insert their own diaries"
   with check ( auth.uid() = user_id );
 ```
 
+![Supabase Table Editor showing diaries table with RLS enabled](supabase_table_editor.png)
+
 ---
 
 ## 💻 Querying Database in Frontend (JavaScript)

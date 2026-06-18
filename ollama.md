@@ -60,6 +60,8 @@ ollama run llama3
   ollama run phi3
   ```
 
+![Ollama Running Llama 3 locally in terminal](ollama_terminal.png)
+
 ---
 
 ## 💻 Integrating Ollama in Code (JavaScript)

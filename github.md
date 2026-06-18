@@ -20,6 +20,9 @@ Let's practice collaborating on a remote GitHub project:
 3. Click on the repository in the search results to open it.
 4. Click the **"Fork"** button in the top-right corner, then click **"Create Fork"** to copy the repository under your personal GitHub namespace.
 5. In your new fork repository page, click the green **"Code"** button and copy the HTTPS URL (e.g. `https://github.com/YOUR-USERNAME/guides.git`).
+
+![GitHub Fork and Code buttons Location](github_fork_code.png)
+
 6. Open **Antigravity Chat** and send this request:
    > *"Antigravity, clone my forked guides repository locally using the copied URL to my local workspace, and run git status."*
 7. **Verify**: Ensure the repository is successfully cloned to your machine!

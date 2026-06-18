@@ -42,6 +42,8 @@ flowchart TD
     style Check fill:#00cec9,stroke:#00b894,color:#fff
 ```
 
+![Vibe Coding Mind to Code Developer Workflow](vibe_workflow.png)
+
 ---
 
 ## 🎭 A Humorous Example: The "Cat Translator 3000"
